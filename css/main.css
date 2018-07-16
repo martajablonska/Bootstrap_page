@@ -2,7 +2,10 @@ body {
     background-color: #ffff;
     font-family: 'Poppins', sans-serif;
     font-family: 'PT Serif', serif;
-    color:red;
+    color:#ffff;
+}
+p {
+   font-family: 'PT Serif', serif; 
 }
 
 .baner {
@@ -15,7 +18,7 @@ body {
     left: 0;
 }
 
-.flex-menu {
+.menu-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,4 +35,16 @@ body {
 
 .menu a:hover {
     color:#66a900;
+}
+
+.menu-text {
+    margin-top: 12rem;
+    padding-left: 0 !important;
+}
+
+.menu-text h2 {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.29);
+    letter-spacing: 0.2rem;
+    font-size: 2.4rem;
 }
