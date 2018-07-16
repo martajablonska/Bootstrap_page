@@ -85,6 +85,10 @@ h3 {
     padding-left:0;
 }
 
+.practise {
+    margin-bottom: 5rem;
+}
+
 .list li {
     list-style-type: none;
     margin-bottom: 0.5rem;
@@ -102,4 +106,37 @@ h3 {
     height: 2.5rem;
     margin-right:1rem;
     padding-top: 0.5rem;
+}
+
+.regist {
+    height: 16rem;
+    background: url(../img/backgrounds/down.png);
+    background-size: cover;
+}
+
+.regist-text h3 {
+    letter-spacing: 0.5rem;
+}
+
+.regist-text {
+    padding-top: 9rem;
+    color:#ffff;
+}
+
+.regist-text p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.regist-text img {
+    padding-top:1rem;
+}
+
+.regist button {
+    color:#66a900;
+    background: #ffff;
+    font-size: 1rem;
+    line-height: 2.3rem;
+    padding-left: 1.8em;
+    padding-right: 1.8em;
+    
 }
