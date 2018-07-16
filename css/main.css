@@ -2,10 +2,27 @@ body {
     background-color: #ffff;
     font-family: 'Poppins', sans-serif;
     font-family: 'PT Serif', serif;
-    color:#ffff;
 }
 p {
    font-family: 'PT Serif', serif; 
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 3rem;
+}
+
+.number {
+    font-size: 3rem;
+    font-family: 'PT Serif', serif;
+}
+
+.green {
+    color:#66a900;
+}
+
+.grey {
+   color: #aeaeae; 
 }
 
 .baner {
@@ -13,9 +30,6 @@ p {
     width: 100%;
     background: url(../img/images/baner.png);
     background-size: cover;
-    /*position: absolute;
-    right: 0;
-    left: 0;*/
 }
 
 .menu-flex {
@@ -40,6 +54,7 @@ p {
 .menu-text {
     margin-top: 12rem;
     padding-left: 0 !important;
+    color:#ffff;
 }
 
 .menu-text h2 {
@@ -51,13 +66,16 @@ p {
 
 .yoga {
     height: 40rem;
-    background: red;
 }
 
 .top-background {
-    background: url(../img/backgrounds/top.png);
-    background-size: cover;
-    height: 10rem;
-    position: absolute;
-    top:40rem;
+    width:100%;
+}
+
+.yoga-text {
+    margin-top:7rem;
+}
+
+.yoga-img {
+    width:100%;
 }
