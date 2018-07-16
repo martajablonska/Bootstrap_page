@@ -5,11 +5,12 @@ body {
 }
 p {
    font-family: 'PT Serif', serif; 
+    line-height: 1.5rem;
 }
 
 h3 {
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 .number {
@@ -22,7 +23,7 @@ h3 {
 }
 
 .grey {
-   color: #aeaeae; 
+   color:rgb(199, 199, 199);
 }
 
 .baner {
@@ -73,9 +74,32 @@ h3 {
 }
 
 .yoga-text {
-    margin-top:7rem;
+    margin-top:6rem;
 }
 
 .yoga-img {
     width:100%;
+}
+
+.list {
+    padding-left:0;
+}
+
+.list li {
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+    color:#999999;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.number-list {
+    background: #66a900;
+    display: inline-block;
+    text-align: center;
+    border-radius:50%;
+    color:#ffff;
+    width:2.5rem;
+    height: 2.5rem;
+    margin-right:1rem;
+    padding-top: 0.5rem;
 }
