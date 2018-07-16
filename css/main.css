@@ -2,4 +2,34 @@ body {
     background-color: #ffff;
     font-family: 'Poppins', sans-serif;
     font-family: 'PT Serif', serif;
+    color:red;
+}
+
+.baner {
+    height: 40rem;
+    width: 100%;
+    background: url(../img/images/baner.png);
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.flex-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 1.5rem;
+}
+
+.menu a {
+    color:#ffff;
+    text-decoration: none;
+    margin-left: 3rem;
+    font-size: 0.9rem;
+}
+
+.menu a:hover {
+    color:#66a900;
 }
