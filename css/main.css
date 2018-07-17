@@ -197,4 +197,94 @@ h3 {
     width:100%;
 }
 
+/* speeches section*/
+
+.client {
+    height:17rem;
+}
+
+.carousel-imgages {
+    position: relative;
+    width:32rem;
+}
+
+.previous-img {
+    position:absolute;
+    left: 0;
+    top:2rem;
+    opacity:0.3;
+    height:13rem;
+}
+
+.active-img{
+    position:absolute;
+    left: 10rem;
+    z-index:2;
+}
+
+.active-img-one {
+    position:absolute;
+    left: 8rem;
+    z-index:2;
+}
+
+.active-img-three {
+    position:absolute;
+    left: 8rem !important;
+    z-index:2;
+}
+
+.next-img {
+    position:absolute;
+    right: 0;
+    top:2rem;
+    opacity:0.3;
+    height: 13rem;
+}
+
+.next-img-one {
+    position:absolute;
+    right: -5rem;
+    top:2rem;
+    opacity:0.3;
+    height: 13rem;
+}
+
+.caros-btn {
+    background-color:#000000;
+    border-radius: 50%;
+    border:none;
+    height: 1.5rem;
+    width: 1.5rem;
+    z-index:3;
+}
+
+.caros-btn:hover {
+    background-color: #66a900;
+}
+
+.caros-icon {
+    color:#ffff;
+    font-size: 1.2rem;
+    padding:auto;
+    margin:auto;
+}
+
+.prev {
+    position: absolute;
+    left:9rem;
+    top:60%;
+}
+
+.next {
+    position: absolute;
+    right:9rem;
+    top:60%;
+}
+
+
+
+
+
+
 
