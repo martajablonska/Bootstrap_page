@@ -5,6 +5,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-family: 'PT Serif', serif;
 }
+
 p {
    font-family: 'PT Serif', serif; 
     line-height: 1.5rem;
@@ -81,7 +82,7 @@ h3 {
 
 .yoga-text {
     margin-top:6rem;
-    margin-left: 7%;
+    margin-left: 8%;
 }
 
 .yoga-img {
@@ -158,6 +159,42 @@ h3 {
 
 .regist button:hover {
     border:1px solid #66a900;
+}
+
+/* us section */
+
+.us {
+    margin-top:3rem;
+    margin-bottom: 5rem;
+}
+
+.us-text {
+    margin-left: 8%;
+    margin-top: 2rem;
+}
+
+.us-text > p {
+    margin-bottom: 2rem;
+}
+
+.us-list ul {
+    padding-left: 1rem !important;
+    list-style-image: url(../img/icon/icon-check.png);
+}
+
+.us-list h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.us-list p {
+    color:rgb(199, 199, 199);
+    font-family: 'PT Serif', serif;
+    font-size: smaller;
+}
+
+.us img {
+    width:100%;
 }
 
 
