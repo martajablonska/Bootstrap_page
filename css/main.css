@@ -1,3 +1,5 @@
+/*main style*/
+
 body {
     background-color: #ffff;
     font-family: 'Poppins', sans-serif;
@@ -25,6 +27,8 @@ h3 {
 .grey {
    color:rgb(199, 199, 199);
 }
+
+/*baner style*/
 
 .baner {
     height: 40rem;
@@ -65,8 +69,10 @@ h3 {
     font-size: 2.4rem;
 }
 
+/*yoga section style*/
+
 .yoga {
-    height: 40rem;
+    height: 37rem;
 }
 
 .top-background {
@@ -75,6 +81,7 @@ h3 {
 
 .yoga-text {
     margin-top:6rem;
+    margin-left: 7%;
 }
 
 .yoga-img {
@@ -85,13 +92,20 @@ h3 {
     padding-left:0;
 }
 
+/*practise section style*/
+
 .practise {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+}
+
+.practise-text {
+    margin-top:4rem;
+    padding-right:10%;
 }
 
 .list li {
     list-style-type: none;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.7rem;
     color:#999999;
     font-family: 'Poppins', sans-serif; 
 }
@@ -108,14 +122,16 @@ h3 {
     padding-top: 0.5rem;
 }
 
+/*registration section style*/
+
 .regist {
     height: 16rem;
     background: url(../img/backgrounds/down.png);
     background-size: cover;
 }
 
-.regist-text h3 {
-    letter-spacing: 0.5rem;
+.regist-text h4 {
+    letter-spacing: 0.12rem;
 }
 
 .regist-text {
@@ -138,5 +154,10 @@ h3 {
     line-height: 2.3rem;
     padding-left: 1.8em;
     padding-right: 1.8em;
-    
 }
+
+.regist button:hover {
+    border:1px solid #66a900;
+}
+
+
