@@ -273,15 +273,18 @@ h3 {
 .prev {
     position: absolute;
     left:9rem;
-    top:60%;
+    top:50%;
 }
 
 .next {
     position: absolute;
     right:9rem;
-    top:60%;
+    top:50%;
 }
 
+.hidde {
+    display:none;
+}
 
 
 
