@@ -1,3 +1,5 @@
+//carousle
+
 $("#prev").click(function() {
     
     if ($('#one').hasClass('previous-img')) { //if two is active
@@ -80,6 +82,30 @@ $("#next").click(function() {
     };
     
 });
+
+//box with prices
+
+$('.pricing-box').mouseenter(function() {
+    
+    
+   $('.pricing-box-plan').removeClass('pricing-box-grey').addClass('pricing-box-green');
+   
+    $('.pricing-box-order').addClass('pricing-box-order-hover');
+        
+});
+
+$('.pricing-box').mouseleave(function() {
+    
+    
+   $('.pricing-box-plan').removeClass('pricing-box-green').addClass('pricing-box-grey');
+   
+    $('.pricing-box-order').removeClass('pricing-box-order-hover');
+        
+});
+
+
+
+
 
 
 
