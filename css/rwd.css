@@ -191,12 +191,17 @@
     .baner {
         height: 20rem;
     }
+    
     .menu-text {
-        margin-top: 3rem;
+        margin-top: 0.5rem;
+    }
+    
+    .menu-text h2 {
+        font-size: 2rem;
     }
     
     .yoga {
-        height: 38rem;
+        height:40rem;
     }
     
     .yoga-img {
@@ -210,6 +215,10 @@
         margin-left: 10%;
     }
     
+    .practise {
+        height: 30rem;
+    }
+    
     .practise-text {
         position: relative;
         top:-23rem;
@@ -217,10 +226,14 @@
     
     .practise-img {
         position: relative;
-        top:23rem;
+        top:20rem;
     }
     .list li {
         line-height: 2rem;
+    }
+    
+    .us {
+        height: 52rem;
     }
     
     .regist {
@@ -272,9 +285,18 @@
     }
     
     .regist2 {
-        height: 25rem;
+        height: 27rem;
         position: relative;
         top:-15rem;
+    }
+    
+    .regist-btn {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+    .regist-arrow {
+        display: none;
     }
 
     
