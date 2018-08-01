@@ -83,10 +83,11 @@ $("#next").click(function() {
     
 });
 
-//box with prices
+//boxes with prices
+
+
 
 $('.pricing-box').mouseenter(function() {
-    
     
    $('.pricing-box-plan').removeClass('pricing-box-grey').addClass('pricing-box-green');
    
@@ -102,6 +103,8 @@ $('.pricing-box').mouseleave(function() {
     $('.pricing-box-order').removeClass('pricing-box-order-hover');
         
 });
+
+
 
 
 

@@ -1,0 +1,61 @@
+@media (max-width:1200px) {
+    
+    .yoga {
+        height: 30rem;
+    }
+    
+    .yoga-text {
+        margin-left:0;
+    }
+    .yoga-img {
+        height:80%;
+        margin-top: 5rem;
+    }
+    
+    .regist-text img {
+        width: 95%;
+    }
+    
+    
+    .us-text {
+        margin-left: 0;
+    } 
+    
+    .us img {
+        margin-top: 5rem;
+    }
+    
+    .next {
+        position: absolute;
+        right:2rem;
+        top:8rem;
+    }
+    
+    .carousel-imgages {
+        position: relative;
+        width:29rem;
+    }
+    
+    .active-img{
+        position:absolute;
+        left: 9rem;
+    }
+
+    .active-img-one {
+        position:absolute;
+        left: 6rem;
+    }
+
+    .active-img-three {
+        position:absolute;
+        left: 6rem !important;
+    }
+    
+    .pricing-text {
+        margin-left: 3%;
+    }
+
+
+
+
+}

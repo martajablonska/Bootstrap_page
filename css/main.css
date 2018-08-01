@@ -29,6 +29,10 @@ h3 {
    color:rgb(199, 199, 199);
 }
 
+.row {
+    margin:0 !important;
+}
+
 /*baner style*/
 
 .baner {
@@ -73,7 +77,7 @@ h3 {
 /*yoga section style*/
 
 .yoga {
-    height: 37rem;
+    height: 36rem;
 }
 
 .top-background {
@@ -85,7 +89,7 @@ h3 {
     margin-left: 8%;
 }
 
-.yoga-img {
+.image {
     width:100%;
 }
 
@@ -100,8 +104,7 @@ h3 {
 }
 
 .practise-text {
-    margin-top:4rem;
-    padding-right:10%;
+    margin-top:2rem;
 }
 
 .list li {
@@ -148,16 +151,16 @@ h3 {
     padding-top:1rem;
 }
 
-.regist button {
+.regist-btn {
     color:#66a900;
     background: #ffff;
     font-size: 1rem;
     line-height: 2.3rem;
-    padding-left: 1.8em;
-    padding-right: 1.8em;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
 }
 
-.regist button:hover {
+.regist-btn:hover {
     border:1px solid #66a900;
 }
 
@@ -195,6 +198,7 @@ h3 {
 
 .us img {
     width:100%;
+    margin-top: 2rem;
 }
 
 /* speeches section*/
@@ -220,7 +224,7 @@ h3 {
     height:13rem;
 }
 
-.active-img.{
+.active-img{
     position:absolute;
     left: 10rem;
     z-index:2;
@@ -276,13 +280,13 @@ h3 {
 
 .prev {
     position: absolute;
-    left:9rem;
+    left:2rem;
     top:8rem;
 }
 
 .next {
     position: absolute;
-    right:9rem;
+    right:2rem;
     top:8rem;
 }
 
@@ -301,7 +305,7 @@ h3 {
 }
 
 .pricing-text {
-    margin-left: 8rem;
+    margin-left: 8%;
     margin-bottom: 2rem;
 }
 
@@ -380,6 +384,8 @@ h3 {
     padding-top: 18rem;
 }
 
+/*  footer */
+
 .footer {
     position: relative;
     top:-7rem;
@@ -387,6 +393,7 @@ h3 {
 
 .footer-logo img {
     width:auto;
+    margin-left: 8%;
 }
 
 .footer-copyrigth {
