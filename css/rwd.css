@@ -1,3 +1,5 @@
+/**********                        1200px breakpoint      *******/
+
 @media (max-width:1200px) {
     
     .yoga {
@@ -55,6 +57,8 @@
         margin-left: 3%;
     }
 }
+
+/*********                        992px breakpoint      ********/
 
 @media (max-width:992px) {
     
@@ -134,11 +138,50 @@
     
     .nav-footer{
         margin-left: 0;
+    }  
+}
+
+/*****                            768px breakpoint     *********/
+
+@media (max-width:768px) {
+    
+     .yoga {
+        height: 37rem;
+    }
+    
+    .practise-text {
+        position: relative;
+        top:-23rem;
+    }
+    
+    .practise-img {
+        position: relative;
+        top:23rem;
+    }
+    
+    .carousel {
+        margin-left: 2rem;
+    }
+    
+    .carousel-imgages {
+        position: relative;
+        top:14rem;
+    }
+    
+    .prev {
+        position: absolute;
+        left:2rem;
+        top:20rem;
     }
 
+    .next {
+        position: absolute;
+        right:0rem;
+        top:20rem;
+    }
     
-
-
-
-  
+     .footer-logo {
+        margin-left:30%;
+    }
+    
 }
