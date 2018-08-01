@@ -183,5 +183,100 @@
      .footer-logo {
         margin-left:30%;
     }
+}
+
+/*****                            576px breakpoint     *********/
+
+@media (max-width:576px) {
+    .baner {
+        height: 20rem;
+    }
+    .menu-text {
+        margin-top: 3rem;
+    }
     
+    .yoga {
+        height: 38rem;
+    }
+    
+    .yoga-img {
+        position: relative;
+        top:-3rem;
+        z-index: -1;   
+    }
+    
+    .image {
+        width:80%;
+        margin-left: 10%;
+    }
+    
+    .practise-text {
+        position: relative;
+        top:-23rem;
+    }
+    
+    .practise-img {
+        position: relative;
+        top:23rem;
+    }
+    .list li {
+        line-height: 2rem;
+    }
+    
+    .regist {
+        height: 20rem;
+        background: url(../img/backgrounds/down.png);
+        background-size: cover;
+    }
+    .carousel-imgages {
+        position: relative;
+        width:10rem;
+    }
+    .previous-img {
+        display: none;
+    }
+
+    .active-img{
+        position:absolute;
+        left: 4rem;
+    }
+
+    .active-img-one {
+        position:absolute;
+        left: 0;
+    }
+
+    .active-img-three {
+        position:absolute;
+        left: 0 !important;
+    }
+
+    .next-img {
+        display: none;
+    }
+
+    .next-img-one {
+        display: none;
+    }
+
+    .prev {
+        position: absolute;
+        left:2rem;
+        top:20rem;
+    }
+
+    .next {
+        position: absolute;
+        right:2rem;
+        top:20rem;
+    }
+    
+    .regist2 {
+        height: 25rem;
+        position: relative;
+        top:-15rem;
+    }
+
+    
+   
 }
