@@ -7,6 +7,7 @@
     .yoga-text {
         margin-left:0;
     }
+    
     .yoga-img {
         height:80%;
         margin-top: 5rem;
@@ -15,7 +16,6 @@
     .regist-text img {
         width: 95%;
     }
-    
     
     .us-text {
         margin-left: 0;
@@ -54,8 +54,91 @@
     .pricing-text {
         margin-left: 3%;
     }
+}
+
+@media (max-width:992px) {
+    
+    .yoga {
+        height: 40rem;
+    }
+    
+    .yoga-text {
+        margin-top:2rem;
+    }
+    
+    .yoga-img {
+        height:100%;
+        margin-top: 0;
+    }
+    
+    .practise-text {
+        position: relative;
+        top:-15rem;
+    }
+    
+    .practise-img {
+        position: relative;
+        top:22rem;
+    }
+    
+    .regist-text {
+        padding-top: 7rem;
+    }
+    
+    .us {
+        margin-top:0rem;
+    }
+    
+    .us img {
+        margin-top: 0;
+    }
+    
+    .carousel-imgages {
+        position: relative;
+        top:12rem;
+    }
+    
+    .prev {
+        position: absolute;
+        left:2rem;
+        top:20rem;
+    }
+
+    .next {
+        position: absolute;
+        right:0rem;
+        top:20rem;
+    }
+    
+    .pricing {
+        margin-top: 14rem;
+    }
+    
+    .pricing-box {
+        width:100%;
+        height: 19rem;
+        margin-bottom: 2rem;
+    }
+    
+    .regist-text2 {
+        padding-top: 15rem;
+    }
+    
+    .footer-logo {
+        margin-left:50%;
+    }
+    
+    .footer-copyrigth {
+        margin-top: 1rem;
+    }
+    
+    .nav-footer{
+        margin-left: 0;
+    }
+
+    
 
 
 
-
+  
 }

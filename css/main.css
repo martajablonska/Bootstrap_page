@@ -391,9 +391,12 @@ h3 {
     top:-7rem;
 }
 
+.footer-logo {
+    margin-left:8%;
+}
+
 .footer-logo img {
     width:auto;
-    margin-left: 8%;
 }
 
 .footer-copyrigth {
@@ -401,7 +404,7 @@ h3 {
 }
 
 .nav-footer{
-    margin-left: 10rem;
+    margin-left: 5rem;
 }
 
 .nav-footer li {
