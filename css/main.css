@@ -47,6 +47,10 @@ h3 {
     padding-top: 1.5rem;
 }
 
+.mirror-logo {
+    padding-right: 10rem;
+}
+
 .menu-icon {
     color:#ffff;
 }
@@ -73,6 +77,10 @@ h3 {
     text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.29);
     letter-spacing: 0.2rem;
     font-size: 2.4rem;
+}
+
+.none {
+    display: none;
 }
 
 /********                            yoga section style       ***/
@@ -108,6 +116,9 @@ h3 {
     margin-top:2rem;
 }
 
+.list {
+    line-height: 1.8rem;
+}
 .list li {
     list-style-type: none;
     margin-bottom: 0.7rem;
@@ -124,7 +135,7 @@ h3 {
     width:2.5rem;
     height: 2.5rem;
     margin-right:1rem;
-    padding-top: 1.1rem;
+    padding-top: 0.5rem;
 }
 
 /******                        registration section style   *****/
@@ -287,7 +298,7 @@ h3 {
 
 .next {
     position: absolute;
-    right:2rem;
+    right:6rem;
     top:8rem;
 }
 

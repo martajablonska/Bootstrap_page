@@ -2,6 +2,10 @@
 
 @media (max-width:1200px) {
     
+    .mirror-logo {
+        padding-right: 3rem;
+    }
+
     .yoga {
         height: 30rem;
     }
@@ -61,7 +65,7 @@
 /*********                        992px breakpoint      ********/
 
 @media (max-width:992px) {
-
+    
     .menu-li {
         line-height: 1rem;
         font-size: 1.5rem;
@@ -116,7 +120,7 @@
 
     .next {
         position: absolute;
-        right:0rem;
+        right:3rem;
         top:20rem;
     }
     
@@ -151,8 +155,17 @@
 
 @media (max-width:768px) {
     
+    .baner {
+        height: 35rem;
+    }
+
      .yoga {
         height: 37rem;
+    }
+    
+    .image {
+        height: 80%;
+        width: auto;
     }
     
     .practise-text {
@@ -162,7 +175,7 @@
     
     .practise-img {
         position: relative;
-        top:23rem;
+        top:25rem;
     }
     
     .carousel {
@@ -218,11 +231,17 @@
     
     .image {
         width:80%;
+        height: auto;
         margin-left: 10%;
     }
     
     .practise {
-        height: 30rem;
+        height: 38rem;
+    }
+    
+    .practise-img {
+        position: relative;
+        top:18rem;
     }
     
     .practise-text {

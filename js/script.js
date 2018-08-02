@@ -86,22 +86,49 @@ $("#next").click(function() {
 //boxes with prices
 
 
-
-$('.pricing-box').mouseenter(function() {
-    
-   $('.pricing-box-plan').removeClass('pricing-box-grey').addClass('pricing-box-green');
+$('#pricing-box1').mouseenter(function() {
+     $('#pricing-box-plan1').removeClass('pricing-box-grey').addClass('pricing-box-green');
    
-    $('.pricing-box-order').addClass('pricing-box-order-hover');
-        
+    $('#pricing-box-order1').addClass('pricing-box-order-hover');
 });
 
-$('.pricing-box').mouseleave(function() {
-    
-    
-   $('.pricing-box-plan').removeClass('pricing-box-green').addClass('pricing-box-grey');
+
+$('#pricing-box1').mouseleave(function() {
+    $('#pricing-box-plan1').removeClass('pricing-box-green').addClass('pricing-box-grey');
    
-    $('.pricing-box-order').removeClass('pricing-box-order-hover');
-        
+    $('#pricing-box-order1').removeClass('pricing-box-order-hover');
+});
+
+$('#pricing-box2').mouseenter(function() {
+     $('#pricing-box-plan2').removeClass('pricing-box-grey').addClass('pricing-box-green');
+   
+    $('#pricing-box-order2').addClass('pricing-box-order-hover');
+});
+
+
+$('#pricing-box2').mouseleave(function() {
+    $('#pricing-box-plan2').removeClass('pricing-box-green').addClass('pricing-box-grey');
+   
+    $('#pricing-box-order2').removeClass('pricing-box-order-hover');
+});
+
+$('#pricing-box3').mouseenter(function() {
+     $('#pricing-box-plan3').removeClass('pricing-box-grey').addClass('pricing-box-green');
+   
+    $('#pricing-box-order3').addClass('pricing-box-order-hover');
+});
+
+
+$('#pricing-box3').mouseleave(function() {
+    $('#pricing-box-plan3').removeClass('pricing-box-green').addClass('pricing-box-grey');
+   
+    $('#pricing-box-order3').removeClass('pricing-box-order-hover');
+});
+
+//hide menu text when toggler menu is showing
+
+$('#menuButton').click(function() {
+    $('.menu-text').toggleClass('none');
 });
 
 
