@@ -61,6 +61,12 @@
 /*********                        992px breakpoint      ********/
 
 @media (max-width:992px) {
+
+    .menu-li {
+        line-height: 1rem;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
     
     .yoga {
         height: 40rem;
