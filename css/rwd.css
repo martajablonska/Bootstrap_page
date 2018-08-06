@@ -1,3 +1,11 @@
+@media (min-width:1500px) {
+    
+    .image {
+        width:auto;
+        }
+
+}
+
 /**********                        1200px breakpoint      *******/
 
 @media (max-width:1200px) {

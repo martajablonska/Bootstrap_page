@@ -60,6 +60,7 @@ h3 {
     text-decoration: none;
     margin-left: 3rem;
     font-size: 0.9rem;
+    transition: all .25s;
 }
 
 .menu a:hover {
@@ -170,6 +171,7 @@ h3 {
     line-height: 2.3rem;
     padding-left: 1.8rem;
     padding-right: 1.8rem;
+    transition: all .25s;
 }
 
 .regist-btn:hover {
@@ -277,6 +279,7 @@ h3 {
     height: 1.5rem;
     width: 1.5rem;
     z-index:3;
+    transition: all .25s;
 }
 
 .caros-btn:hover {
