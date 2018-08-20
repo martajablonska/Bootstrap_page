@@ -13,7 +13,7 @@ Project is created with:
 Page is responsive.
 To made prefixes in css I used https://autoprefixer.github.io/
 
-## To do
+## To Do
 * Change background to clip path
 
 ## Sources
